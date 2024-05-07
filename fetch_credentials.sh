@@ -1,2 +1,2 @@
 #!/bin/bash
-cat ./credentials.json
+cat /home/amir_f/gcp-networking_terraform/credentials.json

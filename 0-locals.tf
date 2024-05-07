@@ -4,6 +4,6 @@ data "external" "fetch_credentials" {
 
 locals {
   credentials = data.external.fetch_credentials.result
-  project_id = "caps-mirror-trading-bot"
-  region     = "me-central1"
+  project_id = "caps-dashboard"
+  region     = "europe-west2"
 }
